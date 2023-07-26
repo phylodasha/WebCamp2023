@@ -1,0 +1,201 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: Roboto;
+     color: #ffffff;
+     background-color: #ffffff ;
+}
+ nav {
+     margin:0;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     padding: 10px 20px;
+     background: #1A2238;
+}
+ nav ul {
+     display: flex;
+     list-style-type: none;
+     margin: 2px;
+     padding: 0;
+}
+ nav li a {
+     display: block;
+     padding: 8px 16px;
+     margin: 5px;
+     text-decoration: none;
+     background-color:#FF6A3D;
+     color: white;
+}
+ li a:hover {
+     background-color: #9DAAF2;
+     color: white;
+}
+/* выше часть 1*/
+/* ниже часть 2*/
+ .part-header{
+     margin-bottom: 10px;
+     margin-top: 50px;
+     color: #05396b;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+}
+ .container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ p{
+     color:#05396b;
+     max-width: 300px;
+     padding: 10px;
+}
+ img{
+     width: 300px;
+     height: 337px;
+     object-fit: cover;
+}
+/* выше часть 2*/
+/* ниже часть 3*/
+ table, th, td {
+     border-collapse: collapse;
+     vertical-align: middle;
+     text-align: center;
+     color:#05396b;
+}
+ table {
+     width: 400px;
+     height: auto;
+}
+ th, td {
+     background-color: #e9ecfb;
+}
+ .cards {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-content: flex-start;
+     gap: 12px;
+     margin: auto;
+}
+ .card {
+     background-color: white;
+     border-radius: 0.25rem;
+     box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+     display: flex;
+     flex-direction: column;
+}
+ .card__text{
+     color: black;
+     height: 60px;
+     text-align: center;
+     margin-top:5px;
+}
+ .card__image {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-top-left-radius: 0.25rem;
+     border-top-right-radius: 0.25rem;
+     filter: contrast(80%);
+     overflow: hidden;
+     position: relative;
+}
+/* занятие №3*/
+/* занятие №3*/
+/* занятие №3*/
+/* занятие №3*/
+/* занятие №3*/
+/* занятие №3*/
+/* занятие №3*/
+ form {
+     width: 20%;
+     padding: 20px;
+     border-radius: 6px;
+     background: #fff;
+     margin:auto;
+     box-shadow: 0 0 8px #FF6A3D;
+     outline: none;
+     font-family: Roboto, Arial, sans-serif;
+     font-size: 14px;
+     color: #666;
+     line-height: 22px;
+}
+ .testbox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: inherit;
+     padding: 20px;
+}
+ input, select, textarea, label, p {
+     padding: 0;
+     margin: 0;
+     outline: none;
+     font-family: Roboto, Arial, sans-serif;
+     font-size: 14px;
+     color: #666;
+     line-height: 22px;
+}
+ textarea {
+     width: calc(100% - 12px);
+     padding: 5px;
+}
+
+ input {
+     width: calc(100% - 10px);
+     padding: 5px;
+}
+
+ input[type="date"] {
+     padding: 4px 5px;
+}
+ textarea {
+     width: calc(100% - 12px);
+     padding: 5px;
+}
+.item {
+     position: relative;
+     margin: 10px 0;
+}
+ .item:hover p, label:hover, input:hover::placeholder {
+     color: #FF6A3D;
+}
+ .item input:hover, .item select:hover, .item textarea:hover {
+     border: 1px solid transparent;
+     box-shadow: 0 0 3px 0 #FF6A3D;
+     color: #FF6A3D;
+}
+
+/* интерактивная иконка календаря*/
+ [type="date"]::-webkit-calendar-picker-indicator {
+     right: 1%;
+     opacity: 100;
+     cursor: pointer;
+}
+ .flax {
+     display:flex;
+     justify-content:space-around;
+}
+ .btn-block {
+     margin-top: 10px;
+     text-align: center;
+}
+ button {
+     width: 150px;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     background: #FF6A3D;
+     font-size: 16px;
+     color: #fff;
+     cursor: pointer;
+}
+ button:hover {
+     background: #de3602;
+}
+ 
